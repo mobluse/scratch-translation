@@ -240,7 +240,7 @@ msgstr "MOVE %n"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "next backdrop"
-msgstr "LET BACKDROP = BACKDROP + 1"
+msgstr "FORK LET BACKDROP += 1"
 
 msgid "next costume"
 msgstr "LET COSTUME = COSTUME + 1"
@@ -613,7 +613,7 @@ msgid "pixelate"
 msgstr "PIXELATE"
 
 msgid "previous backdrop"
-msgstr "LET BACKDROP = BACKDROP - 1"
+msgstr "FORK LET BACKDROP -= 1"
 
 msgid "random"
 msgstr "RND(1,LAST)"
