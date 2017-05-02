@@ -39,7 +39,7 @@ msgid "%b or %b"
 msgstr "%b OR %b"
 
 msgid "%m.attribute of %m.spriteOrStage"
-msgstr "ATTR( %m.attribute , %m.spriteOrStage )"
+msgstr "ATTR$( %m.attribute , %m.spriteOrStage )"
 
 msgid "%m.list contains %s?"
 msgstr "FIND(ARR$( TO , %m.list ), %s )"
@@ -438,7 +438,7 @@ msgid "turn video %m.videoState"
 msgstr "LET VIDEOSTATE = %m.videoState"
 
 msgid "username"
-msgstr "USERNAME"
+msgstr "USERNAME$"
 
 msgid "video %m.videoMotionType on %m.stageOrThis"
 msgstr "VIDEO( %m.videoMotionType , %m.stageOrThis )"
