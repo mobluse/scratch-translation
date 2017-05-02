@@ -182,10 +182,10 @@ msgid "hide"
 msgstr "HIDE"
 
 msgid "hide list %m.list"
-msgstr "HIDE LIST %m.list"
+msgstr "HIDE ARR$( TO , %m.list )"
 
 msgid "hide variable %m.var"
-msgstr "HIDE VAR %m.var"
+msgstr "HIDE %m.var"
 
 msgid "if %b then"
 msgstr "IF %b THEN"
@@ -366,7 +366,7 @@ msgid "show"
 msgstr "SHOW"
 
 msgid "show list %m.list"
-msgstr "SHOW ARR$( TO , %m.list)"
+msgstr "SHOW ARR$( TO , %m.list )"
 
 msgid "show variable %m.var"
 msgstr "SHOW %m.var"
