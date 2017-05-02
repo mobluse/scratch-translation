@@ -41,7 +41,7 @@ msgstr "%b OR %b"
 msgid "%m.attribute of %m.spriteOrStage"
 msgstr "ATTR( %m.attribute , %m.spriteOrStage )"
 
-msgid "%m.list contains %s ?"
+msgid "%m.list contains %s?"
 msgstr "FIND(ARR$( TO , %m.list ), %s )"
 
 msgid "%m.mathOp of %n"
