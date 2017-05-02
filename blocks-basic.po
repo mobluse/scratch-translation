@@ -1,0 +1,647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-16 23:45+0200\n"
+"PO-Revision-Date: 2013-11-18 01:59+0200\n"
+"Last-Translator: mobluse <mikael.bonnier@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+# This should be BASIC using Scratch 2.
+# Load this using Shift+Globe import translation file.
+# One cannot change the order of arguments and this leads 
+# to some strange constructions.
+# It has been inspired by several BASICs: Sinclair BASIC
+# for ZX81 and ZX Spectrum, MMBASIC for Maximite and 
+# Duinomite, De Re BASIC for Android, and TI-BASIC for 
+# TI-82, TI-83, and TI-84 Plus.
+# This was made mostly for fun but it could be used if
+# anyone wants to learn BASIC from Scratch or vice versa.
+
+# From blocks.po
+
+# The language name as it will appear in the language menu
+msgid "Language-Name"
+msgstr "BASIC"
+
+msgid "%b and %b"
+msgstr "%b AND %b"
+
+msgid "%b or %b"
+msgstr "%b OR %b"
+
+msgid "%m.attribute of %m.spriteOrStage"
+msgstr "ATTR( %m.attribute , %m.spriteOrStage )"
+
+msgid "%m.list contains %s"
+msgstr "FIND(ARR$( TO , %m.list ), %s )"
+
+msgid "%m.mathOp of %n"
+msgstr "%m.mathOp %n"
+
+msgid "%m.sensor sensor value"
+msgstr "PEEK SENSORVALUE + %m.sensor"
+
+msgid "%n mod %n"
+msgstr "%n MOD %n"
+
+msgid "add %s to %m.list"
+msgstr "STO %s -> INS ARR$(LAST+1, %m.list )"
+
+msgid "answer"
+msgstr "ANS$"
+
+msgid "ask %s and wait"
+msgstr "INPUT %s , ANS$"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop #"
+msgstr "BACKDROP"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "backdrop name"
+msgstr "BACKDROPNAME"
+
+msgid "broadcast %m.broadcast"
+msgstr "FORK GOSUB %m.broadcast"
+
+msgid "broadcast %m.broadcast and wait"
+msgstr "GOSUB %m.broadcast"
+
+msgid "change %m.effect effect by %n"
+msgstr "LET EFFECTS( %m.effect ) += %n"
+
+msgid "change %m.var by %n"
+msgstr "LET %m.var += %n"
+
+msgid "change pen color by %n"
+msgstr "LET PENCOLOR += %n"
+
+msgid "change pen shade by %n"
+msgstr "LET PENSHADE += %n"
+
+msgid "change pen size by %n"
+msgstr "LET PENSIZE = PENSIZE + %n"
+
+msgid "change size by %n"
+msgstr "LET SIZE = SIZE + %n"
+
+msgid "change tempo by %n"
+msgstr "LET TEMPO = TEMPO + %n"
+
+msgid "change volume by %n"
+msgstr "LET VOLUME += %n"
+
+msgid "change x by %n"
+msgstr "LET X = X + %n"
+
+msgid "change y by %n"
+msgstr "LET Y = Y + %n"
+
+msgid "clear"
+msgstr "CLS"
+
+msgid "clear graphic effects"
+msgstr "ERASE EFFECTS()"
+
+msgid "color %c is touching %c?"
+msgstr "TOUCHINGCOLOR( %c , %c )"
+
+msgid "Control"
+msgstr "CONTROL"
+
+msgid "costume #"
+msgstr "COSTUME"
+
+msgid "costume name"
+msgstr "COSTUMENAME"
+
+msgid "create clone of %m.spriteOnly"
+msgstr "CLONE %m.spriteOnly"
+
+msgid "current %m.timeAndDate"
+msgstr "CURRENT %m.timeAndDate"
+
+msgid "Data"
+msgstr "DATA"
+
+msgid "days since 2000"
+msgstr "NOW"
+
+msgid "define"
+msgstr "SUB"
+
+msgid "delete %d.listDeleteItem of %m.list"
+msgstr "DEL ARR$( %d.listDeleteItem , %m.list )"
+
+msgid "delete this clone"
+msgstr "DEL CLONE"
+
+msgid "direction"
+msgstr "DIR"
+
+msgid "distance"
+msgstr "DIST"
+
+msgid "distance to %m.spriteOrMouse"
+msgstr "DIST %m.spriteOrMouse"
+
+msgid "else"
+msgstr "ELSE"
+
+msgid "Events"
+msgstr "EVENTS"
+
+msgid "forever"
+msgstr "DO"
+
+msgid "glide %n secs to x:%n y:%n"
+msgstr "GLIDE %n TO %n , %n : REM T (SECS), X, Y"
+
+msgid "go back %n layers"
+msgstr "GOBACK %n : REM LAYERS"
+
+msgid "go to %m.spriteOrMouse"
+msgstr "MOVETO %m.spriteOrMouse"
+
+msgid "go to front"
+msgstr "GOFRONT"
+
+msgid "go to x:%n y:%n"
+msgstr "MOVETO %n , %n : REM X, Y"
+
+msgid "hide"
+msgstr "HIDE"
+
+msgid "hide list %m.list"
+msgstr "HIDE LIST %m.list"
+
+msgid "hide variable %m.var"
+msgstr "HIDE VAR %m.var"
+
+msgid "if %b then"
+msgstr "IF %b THEN"
+
+msgid "if on edge, bounce"
+msgstr "BOUNCEIFONEDGE"
+
+msgid "insert %s at %d.listItem of %m.list"
+msgstr "STO %s -> INS ARR$( %d.listItem , %m.list )"
+
+msgid "item %d.listItem of %m.list"
+msgstr "ARR$( %d.listItem , %m.list )"
+
+msgid "join %s %s"
+msgstr "%s & %s"
+
+msgid "key %m.key pressed?"
+msgstr "ISKEY %m.key"
+
+msgid "length of %m.list"
+msgstr "LEN(ARR$( TO , %m.list ))"
+
+msgid "length of %s"
+msgstr "LEN( %s )"
+
+msgid "letter %n of %s"
+msgstr "MID$( %n , 1, %s )"
+
+msgid "Looks"
+msgstr "LOOKS"
+
+msgid "loudness"
+msgstr "LOUDNESS"
+
+msgid "More Blocks"
+msgstr "MORE BLOCKS"
+
+msgid "Motion"
+msgstr "MOTION"
+
+msgid "mouse down?"
+msgstr "ISMOUSEDOWN"
+
+msgid "mouse x"
+msgstr "MOUSEX"
+
+msgid "mouse y"
+msgstr "MOUSEY"
+
+msgid "move %n steps"
+msgstr "MOVE %n"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "next backdrop"
+msgstr "BACKDROP+1"
+
+msgid "next costume"
+msgstr "LET COSTUME = COSTUME + 1"
+
+msgid "not %b"
+msgstr "NOT %b"
+
+msgid "Operators"
+msgstr "OPERATORS"
+
+msgid "Pen"
+msgstr "PEN"
+
+msgid "pen down"
+msgstr "PENDOWN"
+
+msgid "pen up"
+msgstr "PENUP"
+
+msgid "pick random %n to %n"
+msgstr "RND( %n , %n )"
+
+msgid "play drum %d.drum for %n beats"
+msgstr "PLAYDRUM %d.drum , %n : REM BEATS"
+
+# 83%
+msgid "play note %d.note for %n beats"
+msgstr "PLAYNOTE %d.note , %n : REM BEATS"
+
+msgid "play sound %m.sound"
+msgstr "PLAYSOUND %m.sound"
+
+msgid "play sound %m.sound until done"
+msgstr "PLAYSOUNDTOEND %m.sound"
+
+msgid "point in direction %d.direction"
+msgstr "POINT %d.direction : REM DEG"
+
+msgid "point towards %m.spriteOrMouse"
+msgstr "POINTTOWARDS %m.spriteOrMouse"
+
+msgid "repeat %n"
+msgstr "FOR I = 1 TO %n"
+
+msgid "repeat until %b"
+msgstr "DO UNTIL %b"
+
+msgid "replace item %d.listItem of %m.list with %s"
+msgstr "LET ARR$( %d.listItem , %m.list ) = %s"
+
+msgid "reset timer"
+msgstr "LET TIMER = 0"
+
+msgid "rest for %n beats"
+msgstr "REST %n : REM BEATS"
+
+msgid "round %n"
+msgstr "CINT %n"
+
+msgid "say %s"
+msgstr "PRINT %s"
+
+msgid "say %s for %n secs"
+msgstr "PAUSE %s , %n : REM SECS"
+
+msgid "Sensing"
+msgstr "SENSING"
+
+msgid "sensor %m.booleanSensor?"
+msgstr "SENSOR %m.booleanSensor?"
+
+msgid "set %m.effect effect to %n"
+msgstr "LET EFFECTS( %m.effect ) = %n"
+
+msgid "set %m.var to %s"
+msgstr "LET %m.var = %s"
+
+msgid "set instrument to %d.instrument"
+msgstr "LET INSTRUMENT = %d.instrument"
+
+# 89%
+msgid "set motor direction %m.motorDirection"
+msgstr "LET MOTORDIR = %m.motorDirection"
+
+# 77%
+msgid "set motor power %n"
+msgstr "LET MOTOR = %n"
+
+msgid "set pen color to %c"
+msgstr "LET PENCOLOR = %c"
+
+msgid "set pen color to %n"
+msgstr "LET PENCOLOR = %n"
+
+msgid "set pen shade to %n"
+msgstr "LET PENSHADE = %n"
+
+msgid "set pen size to %n"
+msgstr "LET PENSIZE = %n"
+
+msgid "set rotation style %m.rotationStyle"
+msgstr "LET ROTSTYLE = %m.rotationStyle"
+
+msgid "set size to %n%"
+msgstr "LET SIZE = %n : REM %"
+
+msgid "set tempo to %n bpm"
+msgstr "LET TEMPO = %n : REM BPM"
+
+msgid "set video transparency to %n%"
+msgstr "LET VIDEOTRANS = %n : REM %"
+
+msgid "set volume to %n%"
+msgstr "LET VOLUME = %n : REM %"
+
+msgid "set x to %n"
+msgstr "LET X = %n"
+
+msgid "set y to %n"
+msgstr "LET Y = %n"
+
+msgid "show"
+msgstr "SHOW"
+
+msgid "show list %m.list"
+msgstr "SHOW LIST %m.list"
+
+msgid "show variable %m.var"
+msgstr "SHOW VAR %m.var"
+
+msgid "size"
+msgstr "SIZE"
+
+msgid "Sound"
+msgstr "SOUND"
+
+msgid "stamp"
+msgstr "STAMP"
+
+msgid "stop %m.stop"
+msgstr "STOP %m.stop"
+
+msgid "stop all sounds"
+msgstr "STOP SOUNDS"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop"
+msgstr "LET BACKDROP = %m.backdrop"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "switch backdrop to %m.backdrop and wait"
+msgstr "LET BACKDROP = %m.backdrop : WAIT"
+
+msgid "switch costume to %m.costume"
+msgstr "LET COSTUME = %m.costume"
+
+msgid "tempo"
+msgstr "TEMPO"
+
+msgid "think %s"
+msgstr "PRINT #2, %s"
+
+msgid "think %s for %n secs"
+msgstr "PAUSE #2, %s , %n : REM SECS"
+
+msgid "tilt"
+msgstr "TILT"
+
+msgid "timer"
+msgstr "TIMER"
+
+msgid "touching %m.touching?"
+msgstr "TOUCHING %m.touching"
+
+msgid "touching color %c?"
+msgstr "TOUCHINGCOLOR %c"
+
+msgid "turn @turnLeft %n degrees"
+msgstr "TURNLEFT @turnLeft %n : REM DEG"
+
+msgid "turn @turnRight %n degrees"
+msgstr "TURNRIGHT @turnRight %n : REM DEG"
+
+msgid "turn motor off"
+msgstr "MOTOROFF"
+
+msgid "turn motor on"
+msgstr "MOTORON"
+
+# 80%
+msgid "turn motor on for %n secs"
+msgstr "MOTORON %n : REM SECS"
+
+msgid "turn video %m.videoState"
+msgstr "LET VIDEOSTATE = %m.videoState"
+
+msgid "username"
+msgstr "USERNAME"
+
+msgid "video %m.videoMotionType on %m.stageOrThis"
+msgstr "VIDEO( %m.videoMotionType , %m.stageOrThis )"
+
+msgid "video motion"
+msgstr "VIDEOMOTION"
+
+msgid "volume"
+msgstr "VOLUME"
+
+msgid "wait %n secs"
+msgstr "WAIT %n : REM SECS"
+
+msgid "wait until %b"
+msgstr "DO UNTIL %b : LOOP"
+
+# 75%
+msgid "when %m.booleanSensor"
+msgstr "WHEN %m.booleanSensor"
+
+msgid "when %m.key key pressed"
+msgstr "LABEL KEY %m.key"
+
+msgid "when %m.triggerSensor > %n"
+msgstr "WHEN %m.triggerSensor > %n"
+
+msgid "when @greenFlag clicked"
+msgstr "LABEL START @greenFlag"
+
+# "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
+msgid "when backdrop switches to %m.backdrop"
+msgstr "LABEL BACKDROP %m.backdrop"
+
+msgid "when distance < %n"
+msgstr "WHEN DISTANCE < %n"
+
+msgid "when I receive %m.broadcast"
+msgstr "LABEL %m.broadcast"
+
+msgid "when I start as a clone"
+msgstr "LABEL START CLONE"
+
+msgid "when this sprite clicked"
+msgstr "LABEL CLICKED"
+
+msgid "when tilt = %n"
+msgstr "WHEN TILT = %n"
+
+msgid "x position"
+msgstr "X"
+
+msgid "y position"
+msgstr "Y"
+
+# From editor.po
+
+msgid "10 ^"
+msgstr "10**"
+
+msgid "abs"
+msgstr "ABS"
+
+msgid "acos"
+msgstr "ACS"
+
+msgid "all"
+msgstr " TO "
+
+msgid "all around"
+msgstr "ROT"
+
+msgid "asin"
+msgstr "ASN"
+
+msgid "atan"
+msgstr "ATN"
+
+msgid "brightness"
+msgstr "BRIGHTNESS"
+
+msgid "ceiling"
+msgstr "CEIL"
+
+msgid "color"
+msgstr "COLOR"
+
+msgid "cos"
+msgstr "COS"
+
+msgid "date"
+msgstr "DATE"
+
+msgid "day of week"
+msgstr "DOFW"
+
+msgid "don't rotate"
+msgstr "NOTROT"
+
+msgid "down arrow"
+msgstr "ARROWDN$"
+
+msgid "e ^"
+msgstr "EXP"
+
+msgid "edge"
+msgstr "EDGE"
+
+msgid "fisheye"
+msgstr "FISHEYE"
+
+msgid "floor"
+msgstr "INT"
+
+msgid "ghost"
+msgstr "GHOST"
+
+msgid "hour"
+msgstr "HOUR"
+
+msgid "last"
+msgstr "LAST"
+
+msgid "left arrow"
+msgstr "ARROWLT$"
+
+msgid "left-right"
+msgstr "LEFTRIGHT"
+
+msgid "ln"
+msgstr "LN"
+
+msgid "log"
+msgstr "LOG10"
+
+msgid "minute"
+msgstr "MINUTE"
+
+msgid "month"
+msgstr "MONTH"
+
+msgid "mosaic"
+msgstr "MOSAIC"
+
+msgid "motion"
+msgstr "MOTION"
+
+msgid "mouse-pointer"
+msgstr "MOUSEPOINTER"
+
+msgid "myself"
+msgstr "MYSELF"
+
+msgid "off"
+msgstr "OFF"
+
+msgid "on"
+msgstr "ON"
+
+msgid "on-flipped"
+msgstr "ONFLIPPED"
+
+msgid "other scripts in sprite"
+msgstr "OTHERSCRIPTSINSPRITE"
+
+msgid "pixelate"
+msgstr "PIXELATE"
+
+msgid "previous backdrop"
+msgstr "BACKDROP-1"
+
+msgid "random"
+msgstr "RND(1,LAST)"
+
+msgid "right arrow"
+msgstr "ARROWRT$"
+
+msgid "second"
+msgstr "SECOND"
+
+msgid "sin"
+msgstr "SIN"
+
+msgid "space"
+msgstr "SPACE$(1)"
+
+msgid "sqrt"
+msgstr "SQR"
+
+msgid "Stage"
+msgstr "STAGE"
+
+msgid "tan"
+msgstr "TAN"
+
+msgid "this script"
+msgstr "THISSCRIPT"
+
+msgid "this sprite"
+msgstr "THISSPRITE"
+
+msgid "up arrow"
+msgstr "ARROWUP$"
+
+msgid "whirl"
+msgstr "WHIRL"
+
+msgid "year"
+msgstr "YEAR"
