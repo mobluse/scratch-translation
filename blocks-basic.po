@@ -179,7 +179,7 @@ msgid "go to x:%n y:%n"
 msgstr "MOVETO %n , %n : REM X, Y"
 
 msgid "hide"
-msgstr "HIDE"
+msgstr "HIDE SPRITE"
 
 msgid "hide list %m.list"
 msgstr "HIDE ARR$( TO , %m.list )"
@@ -363,7 +363,7 @@ msgid "set y to %n"
 msgstr "LET Y = %n"
 
 msgid "show"
-msgstr "SHOW"
+msgstr "SHOW SPRITE"
 
 msgid "show list %m.list"
 msgstr "SHOW ARR$( TO , %m.list )"
