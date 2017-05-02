@@ -41,7 +41,7 @@ msgstr "%b OR %b"
 msgid "%m.attribute of %m.spriteOrStage"
 msgstr "ATTR( %m.attribute , %m.spriteOrStage )"
 
-msgid "%m.list contains %s"
+msgid "%m.list contains %s ?"
 msgstr "FIND(ARR$( TO , %m.list ), %s )"
 
 msgid "%m.mathOp of %n"
@@ -388,11 +388,11 @@ msgstr "STOP SOUNDS"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop"
-msgstr "LET BACKDROP = %m.backdrop"
+msgstr "FORK LET BACKDROP = %m.backdrop"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "switch backdrop to %m.backdrop and wait"
-msgstr "LET BACKDROP = %m.backdrop : WAIT"
+msgstr "LET BACKDROP = %m.backdrop"
 
 msgid "switch costume to %m.costume"
 msgstr "LET COSTUME = %m.costume"
@@ -457,13 +457,13 @@ msgstr "DO UNTIL %b : LOOP"
 
 # 75%
 msgid "when %m.booleanSensor"
-msgstr "WHEN %m.booleanSensor"
+msgstr "LABEL %m.booleanSensor"
 
 msgid "when %m.key key pressed"
 msgstr "LABEL KEY %m.key"
 
 msgid "when %m.triggerSensor > %n"
-msgstr "WHEN %m.triggerSensor > %n"
+msgstr "LABEL %m.triggerSensor > %n"
 
 msgid "when @greenFlag clicked"
 msgstr "LABEL START @greenFlag"
@@ -473,7 +473,7 @@ msgid "when backdrop switches to %m.backdrop"
 msgstr "LABEL BACKDROP %m.backdrop"
 
 msgid "when distance < %n"
-msgstr "WHEN DISTANCE < %n"
+msgstr "LABEL DISTANCE < %n"
 
 msgid "when I receive %m.broadcast"
 msgstr "LABEL %m.broadcast"
@@ -482,13 +482,13 @@ msgid "when I start as a clone"
 msgstr "LABEL START CLONE"
 
 msgid "when this sprite clicked"
-msgstr "LABEL SPRITE CLICKED"
+msgstr "LABEL CLICKED SPRITE"
 
 msgid "when Stage clicked"
-msgstr "LABEL STAGE CLICKED"
+msgstr "LABEL CLICKED STAGE"
 
 msgid "when tilt = %n"
-msgstr "WHEN TILT = %n"
+msgstr "LABEL TILT = %n"
 
 msgid "x position"
 msgstr "X"
@@ -613,7 +613,7 @@ msgid "pixelate"
 msgstr "PIXELATE"
 
 msgid "previous backdrop"
-msgstr "BACKDROP-1"
+msgstr "LET BACKDROP = BACKDROP - 1"
 
 msgid "random"
 msgstr "RND(1,LAST)"
