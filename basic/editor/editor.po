@@ -1,0 +1,155 @@
+msgid "10 ^"
+msgstr "10**"
+
+msgid "abs"
+msgstr "ABS"
+
+msgid "acos"
+msgstr "ACS"
+
+msgid "all"
+msgstr " TO "
+
+msgid "all around"
+msgstr "ROT"
+
+msgid "asin"
+msgstr "ASN"
+
+msgid "atan"
+msgstr "ATN"
+
+msgid "brightness"
+msgstr "BRIGHTNESS"
+
+msgid "ceiling"
+msgstr "CEIL"
+
+msgid "color"
+msgstr "COLOR"
+
+msgid "cos"
+msgstr "COS"
+
+msgid "date"
+msgstr "DATE"
+
+msgid "day of week"
+msgstr "DOFW"
+
+msgid "don't rotate"
+msgstr "NOTROT"
+
+msgid "down arrow"
+msgstr "ARROWDN$"
+
+msgid "e ^"
+msgstr "EXP"
+
+msgid "edge"
+msgstr "EDGE"
+
+msgid "fisheye"
+msgstr "FISHEYE"
+
+msgid "floor"
+msgstr "INT"
+
+msgid "ghost"
+msgstr "GHOST"
+
+msgid "hour"
+msgstr "HOUR"
+
+msgid "last"
+msgstr "LAST"
+
+msgid "left arrow"
+msgstr "ARROWLT$"
+
+msgid "left-right"
+msgstr "LEFTRIGHT"
+
+msgid "ln"
+msgstr "LN"
+
+msgid "log"
+msgstr "LOG10"
+
+msgid "minute"
+msgstr "MINUTE"
+
+msgid "month"
+msgstr "MONTH"
+
+msgid "mosaic"
+msgstr "MOSAIC"
+
+msgid "motion"
+msgstr "MOTION"
+
+msgid "mouse-pointer"
+msgstr "MOUSEPOINTER"
+
+msgid "random position"
+msgstr "RDNPOS"
+
+msgid "myself"
+msgstr "MYSELF"
+
+msgid "off"
+msgstr "OFF"
+
+msgid "on"
+msgstr "ON"
+
+msgid "on-flipped"
+msgstr "ONFLIPPED"
+
+msgid "other scripts in sprite"
+msgstr "OTHERSCRIPTSINSPRITE"
+
+msgid "pixelate"
+msgstr "PIXELATE"
+
+msgid "previous backdrop"
+msgstr "FORK LET BACKDROP -= 1"
+
+msgid "random"
+msgstr "RND(1,LAST)"
+
+msgid "right arrow"
+msgstr "ARROWRT$"
+
+msgid "second"
+msgstr "SECOND"
+
+msgid "sin"
+msgstr "SIN"
+
+msgid "space"
+msgstr "SPACE$(1)"
+
+msgid "sqrt"
+msgstr "SQR"
+
+msgid "Stage"
+msgstr "STAGE"
+
+msgid "tan"
+msgstr "TAN"
+
+msgid "this script"
+msgstr "THISSCRIPT"
+
+msgid "this sprite"
+msgstr "THISSPRITE"
+
+msgid "up arrow"
+msgstr "ARROWUP$"
+
+msgid "whirl"
+msgstr "WHIRL"
+
+msgid "year"
+msgstr "YEAR"
