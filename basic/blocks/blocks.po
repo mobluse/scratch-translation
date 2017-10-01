@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-16 23:45+0200\n"
-"PO-Revision-Date: 2013-11-18 01:59+0200\n"
+"PO-Revision-Date: 2017-10-01 21:36+0200\n"
 "Last-Translator: mobluse <mikael.bonnier@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -23,8 +23,6 @@ msgstr ""
 # TI-82, TI-83, and TI-84 Plus.
 # This was made mostly for fun but it could be used if
 # anyone wants to learn BASIC from Scratch or vice versa.
-
-# TODO: when Stage clicked, go to MOUSEPOINTER, go to random position, contains
 
 # From blocks.po
 
@@ -169,8 +167,8 @@ msgstr "GLIDE %n TO %n , %n : REM T (SECS), X, Y"
 msgid "go back %n layers"
 msgstr "GOBACK %n : REM LAYERS"
 
-msgid "go to %m.spriteOrMouse"
-msgstr "MOVETO %m.spriteOrMouse"
+msgid "go to %m.location"
+msgstr "MOVETO %m.location"
 
 msgid "go to front"
 msgstr "GOFRONT"
