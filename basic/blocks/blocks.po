@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-16 23:45+0200\n"
-"PO-Revision-Date: 2017-10-01 21:36+0200\n"
+"PO-Revision-Date: 2017-10-01 22:16+0200\n"
 "Last-Translator: mobluse <mikael.bonnier@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -269,10 +269,10 @@ msgid "play note %d.note for %n beats"
 msgstr "PLAYNOTE %d.note , %n : REM BEATS"
 
 msgid "play sound %m.sound"
-msgstr "PLAYSOUND %m.sound"
+msgstr "FORK PLAYSOUND %m.sound"
 
 msgid "play sound %m.sound until done"
-msgstr "PLAYSOUNDTOEND %m.sound"
+msgstr "PLAYSOUND %m.sound"
 
 msgid "point in direction %d.direction"
 msgstr "POINT %d.direction : REM DEG"
@@ -606,6 +606,9 @@ msgstr "ONFLIPPED"
 
 msgid "other scripts in sprite"
 msgstr "OTHERSCRIPTSINSPRITE"
+
+msgid "other scripts in stage"
+msgstr "OTHERSCRIPTSINSTAGE"
 
 msgid "pixelate"
 msgstr "PIXELATE"
